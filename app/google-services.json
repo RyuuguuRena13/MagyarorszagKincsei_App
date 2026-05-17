@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "297079706540",
+    "project_id": "magyarorszagkincsei",
+    "storage_bucket": "magyarorszagkincsei.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297079706540:android:71539465b4d931abb42009",
+        "android_client_info": {
+          "package_name": "com.example.magyarorszagkincsei"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGk2RjfXv_AMX-Ffk-av8rIFee41njTZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

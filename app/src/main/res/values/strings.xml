@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Magyarország Kincsei</string>
+    <string name="welcome">Üdvözöljük!</string>
+
+    <string name="title_activity_login">Bejelentkezés</string>
+    <string name="prompt_email">E-mail cím</string>
+    <string name="prompt_password">Jelszó</string>
+    <string name="action_sign_in">Bejelentkezés</string>
+    <string name="action_register">Regisztráció</string>
+    <string name="login_as_guest">Belépés vendégként</string>
+    <string name="go_to_register">Még nincs fiókod? Regisztrálj itt!</string>
+
+    <string name="invalid_username">Helytelen e-mail formátum!</string>
+    <string name="invalid_password">A jelszónak legalább 6 karakternek kell lennie!</string>
+    <string name="login_failed">Sikertelen bejelentkezés!</string>
+    <string name="empty_fields">Kérjük, töltsd ki az összes mezőt!</string>
+
+    <string name="navigation_drawer_open">Menü megnyitása</string>
+    <string name="navigation_drawer_close">Menü bezárása</string>
+    <string name="nav_header_guest">Vendég üzemmód</string>
+
+    <string name="search_hint">Keresés kincsek vagy helyek között...</string>
+    <string name="felfedezo_prefix">Felfedező: </string>
+    <string name="new_treasure_title">Új kincs felfedezése</string>
+    <string name="treasure_name_hint">Kincs neve</string>
+    <string name="treasure_desc_hint">Leírás</string>
+    <string name="select_photo">Fotó kiválasztása</string>
+    <string name="save_success">Kincs sikeresen elmentve!</string>
+
+    <string name="delete_treasure">Kincs törlése</string>
+    <string name="delete_confirm">Biztosan véglegesen törölni akarod ezt a kincset?</string>
+    <string name="delete_yes">Igen, töröld</string>
+    <string name="delete_no">Mégse</string>
+    <string name="no_permission_delete">Csak a saját kincsedet törölheted!</string>
+
+    <string name="settings_title">Beállítások</string>
+    <string name="language_select_label">Alkalmazás nyelve</string>
+    <string name="language_select_desc">Válaszd ki a kívánt nyelvet a listából</string>
+    <string name="save_settings">Mentés és alkalmazás</string>
+    <string name="language_changed">Nyelv sikeresen módosítva!</string>
+
+    <!-- Menüpontok -->
+    <string name="menu_map">Térkép</string>
+    <string name="menu_list">Kincsek listája</string>
+    <string name="menu_planner">Kirándulás tervező</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="menu_account_group">Fiók kezelése</string>
+    <string name="menu_login">Bejelentkezés</string>
+    <string name="menu_logout">Kijelentkezés</string>
+
+    <string name="rating_title">Értékelés: </string>
+    <string name="rate_this">Értékeld te is:</string>
+    <string name="login_to_rate">Jelentkezz be az értékeléshez!</string>
+    <string name="rating_saved">Köszönjük az értékelést!</string>
+
+    <!-- Kirándulás tervező -->
+    <string name="planner_title">Kirándulás tervező</string>
+    <string name="add_to_trip">Hozzáadás a tervhez</string>
+    <string name="plan_route">Útvonal tervezése Google Térképpel</string>
+    <string name="no_items_in_trip">Adj hozzá kincseket a kiránduláshoz!</string>
+    <string name="item_added">Kincs hozzáadva a listához!</string>
+</resources>

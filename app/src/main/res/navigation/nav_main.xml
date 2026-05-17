@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/nav_map">
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.magyarorszagkincsei.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.magyarorszagkincsei.list.KincsListaFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_kincs_lista" />
+
+    <fragment
+        android:id="@+id/nav_planner"
+        android:name="com.example.magyarorszagkincsei.planner.TripPlannerFragment"
+        android:label="@string/menu_planner"
+        tools:layout="@layout/fragment_trip_planner" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.magyarorszagkincsei.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.magyarorszagkincsei.details.KincsReszletekFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_kincs_reszletek">
+        <argument
+            android:name="ID"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="@drawable/magyar_zaszlo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Új fiók létrehozása"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="32dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email cím"
+        android:inputType="textEmailAddress"
+        android:background="@android:drawable/editbox_background"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Jelszó (min. 6 karakter)"
+        android:inputType="textPassword"
+        android:background="@android:drawable/editbox_background"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Regisztráció"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
