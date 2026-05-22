@@ -59,4 +59,6 @@
     <string name="plan_route">Útvonal tervezése Google Térképpel</string>
     <string name="no_items_in_trip">Adj hozzá kincseket a kiránduláshoz!</string>
     <string name="item_added">Kincs hozzáadva a listához!</string>
+
+    <string name="title_kincs_reszletek">Kincs Részletei</string>
 </resources>

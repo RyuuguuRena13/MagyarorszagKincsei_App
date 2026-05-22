@@ -16,13 +16,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        
-        // API kulcs beolvasása a local.properties fájlból - VISSZAÁLLÍTVA
-        def properties = new Properties()
-        if (rootProject.file("local.properties").exists()) {
-            properties.load(rootProject.file("local.properties").newDataInputStream())
-        }
-        manifestPlaceholders = [MAPS_API_KEY: properties.getProperty("MAPS_API_KEY", "")]
+
+        // API kulcs kezelési logika ELTÁVOLÍTVA a build.gradle-ből.
+        // A kulcsot közvetlenül az AndroidManifest.xml fájlban kell megadni.
     }
 
     buildTypes {
@@ -62,7 +58,7 @@ dependencies {
     
     // Képkezelés és lista
     implementation 'com.github.bumptech.glide:glide:4.16.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0' 
     
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.cardview:cardview:1.0.0'

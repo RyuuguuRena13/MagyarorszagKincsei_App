@@ -16,9 +16,8 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" /> <!-- Visszaállítva placeholder-re! -->
+            android:value="AIzaSyCULbsvPYsU2M1w2FSpTWYHdGSK3-xRCKo" />
 
-        <!-- AuthActivity lesz az indító Activity -->
         <activity
             android:name="com.example.magyarorszagkincsei.auth.AuthActivity"
             android:exported="true">
@@ -28,7 +27,6 @@
             </intent-filter>
         </activity>
 
-        <!-- MainActivity, ami a fő navigációs host lesz -->
         <activity
             android:name="com.example.magyarorszagkincsei.main.MainActivity"
             android:exported="false" />

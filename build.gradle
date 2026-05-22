@@ -1,6 +1,23 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Ezek a sorok biztosítják, hogy a pluginok megtalálhatók legyenek.
+        classpath 'com.google.gms:google-services:4.4.1' 
+        classpath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.8.3' 
+    }
+}
+
 plugins {
     alias(libs.plugins.android.application) apply false
-    id 'com.google.gms.google-services' version '4.4.1' apply false
-    id 'androidx.navigation.safeargs' version '2.8.3' apply false
+    id 'com.android.library' version '8.1.3' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false
+    id 'com.google.devtools.ksp' version '1.9.0-1.0.13' apply false
+    
+    // EZ A SOR HIÁNYZOTT! Ezt adtuk hozzá a safeargs pluginhoz!
+    id 'androidx.navigation.safeargs' version '2.8.3' apply false 
 }
