@@ -59,4 +59,7 @@
     <string name="plan_route">Plan Route with Google Maps</string>
     <string name="no_items_in_trip">Add treasures to your trip!</string>
     <string name="item_added">Treasure added to the list!</string>
+    <string name="title_kincs_reszletek">Treasure Details</string>
+    <string name="button_back_to_map">Back to Map</string>
+    <string name="button_delete_treasure">Delete Treasure</string>
 </resources>

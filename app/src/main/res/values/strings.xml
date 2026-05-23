@@ -61,4 +61,6 @@
     <string name="item_added">Kincs hozzáadva a listához!</string>
 
     <string name="title_kincs_reszletek">Kincs Részletei</string>
+    <string name="button_back_to_map">Vissza a térképhez</string>
+    <string name="button_delete_treasure">Kincs törlése</string>
 </resources>
